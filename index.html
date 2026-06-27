@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Machine Learning Games — learn ML algorithms by playing</title>
+  <meta name="description" content="An interactive playground for the most famous machine-learning algorithms. Play a small game for each one — regression, clustering, neural nets, reinforcement learning — and see exactly how it learns." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="aurora"></div>
+  <div class="grain"></div>
+
+  <!-- mobile top bar -->
+  <div class="topbar">
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false">☰</button>
+    <div class="brand-mark" aria-hidden="true">🧠</div>
+    <strong>Machine Learning Games</strong>
+  </div>
+  <div class="scrim" id="scrim"></div>
+
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#dashboard" data-goto="dashboard" style="text-decoration:none;color:inherit">
+        <div class="brand-mark" aria-hidden="true">🧠</div>
+        <div class="brand-name">ML Games
+          <small>Learn by playing</small>
+        </div>
+      </a>
+      <nav id="nav"></nav>
+      <div class="sidebar-foot">
+        Seventeen famous algorithms, one game each. Everything runs in your browser —
+        nothing is uploaded.
+      </div>
+    </aside>
+
+    <main class="content" id="content"></main>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

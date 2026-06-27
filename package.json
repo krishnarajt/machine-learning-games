@@ -1,0 +1,15 @@
+{
+  "name": "machine-learning-games",
+  "private": true,
+  "version": "1.0.0",
+  "description": "An interactive playground that teaches the most famous machine-learning algorithms through small games you can poke at — regression, clustering, neural nets, reinforcement learning and more.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
